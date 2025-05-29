@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الشواحن الأصلية في المغرب - أبل، جوجل بيكسل، سامسونج | توصيل سريع</title>
+    <meta name="description" content="متجرك الرائد في المغرب لشراء الشواحن الأصلية 100% لأجهزة أبل (آيفون، آيباد)، جوجل بيكسل، وسامسونج جالكسي. اكتشف رؤوس الشواحن والكابلات الأصلية بأسعار تنافسية بالدرهم المغربي مع ضمان وجودة عالية وتوصيل سريع لجميع المدن المغربية.">
+    <meta name="keywords" content="شاحن أبل أصلي المغرب, شاحن آيفون أصلي, شاحن جوجل بيكسل المغرب, شاحن سامسونج أصلي المغرب, شواحن هواتف أصلية, رأس شاحن أبل, كابل لايتنينج أصلي, شاحن USB-C, شاحن لاسلكي Qi, شاحن سيارة, درهم مغربي, متجر إلكتروني شواحن, بيع شواحن المغرب, اكسسوارات هواتف أصلية">
+    <meta name="author" content="متجر الشواحن الأصلية">
+
+    <meta name="description" lang="fr" content="Votre boutique leader au Maroc pour les chargeurs 100% originaux pour Apple (iPhone, iPad), Google Pixel et Samsung Galaxy. Découvrez des têtes de chargeur et câbles originaux à des prix compétitifs en Dirham marocain avec garantie et livraison rapide partout au Maroc.">
+    <meta name="keywords" lang="fr" content="chargeur Apple original Maroc, chargeur iPhone original, chargeur Google Pixel Maroc, chargeur Samsung original Maroc, chargeurs de téléphone originaux, tête de chargeur Apple, câble Lightning original, chargeur USB-C, chargeur sans fil Qi, chargeur voiture, Dirham marocain, boutique en ligne chargeurs, vente chargeurs Maroc, accessoires téléphone originaux">
+
+    <meta property="og:title" content="متجر الشواحن الأصلية في المغرب - أبل، جوجل بيكسل، سامسونج">
+    <meta property="og:description" content="متجرك الرائد في المغرب لشراء الشواحن الأصلية 100% لأجهزة أبل (آيفون، آيباد)، جوجل بيكسل، وسامسونج جالكسي.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.yourstorename.ma/">
+    <meta property="og:image" content="https://placehold.co/1200x630/007aff/ffffff?text=متجر+الشواحن+الأصلية">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:locale:alternate" content="fr_FR">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="متجر الشواحن الأصلية في المغرب - أبل، جوجل بيكسل، سامسونج">
+    <meta name="twitter:description" content="متجرك الرائد في المغرب لشراء الشواحن الأصلية 100% لأجهزة أبل (آيفون، آيباد)، جوجل بيكسل، وسامسونج جالكسي.">
+    <meta name="twitter:image" content="https://placehold.co/1200x675/007aff/ffffff?text=متجر+الشواحن+الأصلية">
+
+    <link rel="canonical" href="https://www.yourstorename.ma/">
+    <link rel="alternate" hreflang="ar-ma" href="https://www.yourstorename.ma/" />
+    <link rel="alternate" hreflang="fr-ma" href="https://www.yourstorename.ma/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.yourstorename.ma/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f7; /* Light Apple-like background */
+            color: #1d1d1f; /* Dark Apple-like text */
+            margin: 0; /* Ensure no default body margin */
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        .product-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        }
+        .btn-primary {
+            background-color: #007aff; /* Apple Blue */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #005bb5;
+        }
+        .header-link:hover {
+            color: #007aff;
+        }
+        /* Custom scrollbar for subtle design */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        /* Logo specific styling */
+        .logo-svg {
+            height: 40px; /* Adjust height as needed */
+            width: auto;
+        }
+
+        /* Modal specific styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .modal-content {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            transform: translateY(-20px);
+            transition: transform 0.3s ease;
+            position: relative; /* For close button positioning */
+        }
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+        .close-button {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #888;
+        }
+        .close-button:hover {
+            color: #333;
+        }
+        .payment-option {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            border-radius: 0.75rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .payment-option:hover {
+            background-color: #e0e0e0;
+            transform: translateY(-2px);
+        }
+        .payment-option.selected {
+            background-color: #007aff;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0, 122, 255, 0.3);
+        }
+        .payment-option.selected .text-gray-700 {
+            color: white;
+        }
+        .payment-details {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+        }
+        .payment-details input {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 0.5rem;
+        }
+        .payment-details button {
+            width: 100%;
+        }
+
+        /* Cart specific styles */
+        .cart-icon-container {
+            position: relative;
+            cursor: pointer;
+            margin-right: 1rem; /* Adjust as needed */
+        }
+        .cart-count {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: #ff3b30; /* Apple Red */
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            line-height: 1;
+            min-width: 20px; /* Ensure circular shape for single/double digits */
+            text-align: center;
+        }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        .cart-item:last-child {
+            border-bottom: none;
+        }
+        .cart-item-info {
+            flex-grow: 1;
+            text-align: right; /* Adjust for RTL */
+            padding-left: 1rem; /* Adjust for RTL */
+        }
+        .cart-item-quantity-controls {
+            display: flex;
+            align-items: center;
+        }
+        .qty-button {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 0.25rem 0.6rem;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .qty-button:hover {
+            background-color: #e0e0e0;
+        }
+        /* SVG Product Image Styling */
+        .product-svg {
+            width: 100%;
+            height: 192px; /* h-48 equivalent */
+            margin-bottom: 1rem; /* mb-4 equivalent */
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 0.5rem; /* rounded-lg equivalent */
+        }
+
+        /* Hero Section Background Image */
+        .hero-section-bg {
+            background-image: linear-gradient(to bottom right, rgba(0, 122, 255, 0.7), rgba(71, 85, 105, 0.7)), url('https://placehold.co/1920x600/2a52be/ffffff?text=Energy+Flow+Tech+Background');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* Reverted section backgrounds to solid colors */
+        .header-bg {
+            background-color: #ffffff; /* Solid white */
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+        }
+        .section-bg-white {
+            background-color: #ffffff; /* Solid white */
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+        }
+        .section-bg-gray {
+            background-color: #f3f4f6; /* Tailwind gray-100 */
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+        }
+        .footer-bg {
+             background-color: #1f2937; /* Tailwind gray-800 */
+             backdrop-filter: none;
+             -webkit-backdrop-filter: none;
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "رأس شاحن أبل الأصلي (20 واط USB-C)",
+      "image": "https://placehold.co/300x200/007aff/ffffff?text=رأس+شاحن+أبل+20W",
+      "description": "رأس شاحن أبل الأصلي بقوة 20 واط يوفر شحنًا فائق السرعة لأجهزة آيفون 8 والإصدارات الأحدث، بالإضافة إلى آيباد برو وآيباد آير. تصميم مدمج وموثوقية عالية لضمان الأمان والأداء الأمثل.",
+      "sku": "APPLE-CHG-20W",
+      "brand": {
+        "@type": "Brand",
+        "name": "Apple"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.yourstorename.ma/#products",
+        "priceCurrency": "MAD",
+        "price": "149.00",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "متجر الشواحن الأصلية"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "150"
+      }
+    }
+    </script>
+</head>
+<body class="antialiased">
+    <header class="bg-white shadow-sm py-4 header-bg">
+        <div class="container flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="#" class="block">
+                    <svg class="logo-svg" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="200" height="50" fill="white" rx="10"/>
+                        <path d="M165 15L150 35L170 35L155 15Z" fill="#007AFF"/>
+                        <path d="M158 18L153 28L163 28L158 18Z" fill="#FFFFFF"/>
+                        <text x="100" y="35" font-family="Inter, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#1d1d1f">
+                            شارجوري
+                        </text>
+                    </svg>
+                </a>
+            </div>
+            <nav class="flex items-center">
+                <ul class="flex space-x-6 space-x-reverse">
+                    <li><a href="#products" class="text-gray-600 hover:text-gray-800 header-link font-medium">المنتجات</a></li>
+                    <li><a href="#why-us" class="text-gray-600 hover:text-gray-800 header-link font-medium">لماذا نحن؟</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-gray-800 header-link font-medium">اتصل بنا</a></li>
+                </ul>
+                <div class="cart-icon-container" onclick="openCartModal()">
+                    <svg class="w-8 h-8 text-gray-600 hover:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                    <span id="cartItemCount" class="cart-count">0</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-br from-blue-500 to-indigo-600 text-white py-20 text-center rounded-b-xl shadow-lg hero-section-bg">
+        <div class="container">
+            <h1 class="text-5xl font-extrabold mb-4 leading-tight">
+                شواحن أصلية في المغرب. طاقة لا تتوقف أبدًا.
+            </h1>
+            <p class="text-xl mb-8 opacity-90">
+                اكتشف مجموعتنا الواسعة من الشواحن الأصلية 100% لأجهزة <span class="font-semibold">أبل</span>، <span class="font-semibold">جوجل بيكسل</span>، و<span class="font-semibold">سامسونج</span> مع ضمان الجودة والتوصيل السريع.
+            </p>
+            <a href="#products" class="btn-primary inline-block text-lg">
+                تسوق الآن
+            </a>
+        </div>
+    </section>
+
+    <section id="products" class="py-16 bg-white rounded-xl shadow-md mx-auto my-12 container section-bg-white">
+        <h2 class="text-4xl font-bold text-center mb-12">منتجات الشواحن الأصلية</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="25" y="25" width="50" height="40" rx="8" fill="#E0E0E0"/>
+                    <rect x="40" y="65" width="20" height="10" rx="3" fill="#A0A0A0"/>
+                    <path d="M50 20L50 25" stroke="#007AFF" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M50 65L50 70" stroke="#007AFF" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="50" cy="50" r="5" fill="#007AFF"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">رأس شاحن أبل الأصلي (20 واط USB-C)</h3>
+                <p class="text-gray-600 mb-4">
+                    رأس شاحن أبل الأصلي بقوة 20 واط يوفر شحنًا فائق السرعة لأجهزة آيفون 8 والإصدارات الأحدث، بالإضافة إلى آيباد برو وآيباد آير. تصميم مدمج وموثوقية عالية من أبل لضمان أقصى أداء وأمان لبطارية جهازك.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    149.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('رأس شاحن أبل الأصلي (20 واط USB-C)', 149.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15" y="45" width="70" height="10" rx="3" fill="#E0E0E0"/>
+                    <circle cx="15" cy="50" r="8" fill="#007AFF"/>
+                    <circle cx="85" cy="50" r="8" fill="#007AFF"/>
+                    <path d="M15 50L85 50" stroke="#007AFF" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M80 45L85 50L80 55" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">كابل أبل الأصلي (USB-C إلى Lightning)</h3>
+                <p class="text-gray-600 mb-4">
+                    كابل أبل الأصلي بطول 1 متر، مثالي للشحن السريع والمزامنة بين أجهزة آيفون/آيباد المزودة بمنفذ Lightning وأجهزة الشحن/الكمبيوتر المزودة بمنفذ USB-C. يضمن نقل بيانات مستقر وشحن فعال.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    99.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('كابل أبل الأصلي (USB-C إلى Lightning)', 99.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="25" width="40" height="45" rx="8" fill="#E0E0E0"/>
+                        <rect x="40" y="70" width="20" height="10" rx="3" fill="#A0A0A0"/>
+                        <circle cx="50" cy="50" r="5" fill="#4285F4"/>
+                        <path d="M50 25L50 30" stroke="#4285F4" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">رأس شاحن جوجل بيكسل الأصلي (30 واط)</h3>
+                <p class="text-gray-600 mb-4">
+                    رأس شاحن جوجل بيكسل بقوة 30 واط، مصمم خصيصاً لتوفير أقصى سرعة شحن وأمان لهواتف بيكسل. صغير الحجم ومثالي للسفر والاستخدام اليومي، مع ضمان التوافق التام.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    139.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('رأس شاحن جوجل بيكسل الأصلي (30 واط)', 139.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15" y="45" width="70" height="10" rx="3" fill="#E0E0E0"/>
+                    <circle cx="15" cy="50" r="8" fill="#4285F4"/>
+                    <circle cx="85" cy="50" r="8" fill="#4285F4"/>
+                    <path d="M15 50L85 50" stroke="#4285F4" stroke-width="2" stroke-linecap="round"/>
+                    <rect x="10" y="47" width="10" height="6" rx="1" fill="#FFFFFF"/>
+                    <rect x="80" y="47" width="10" height="6" rx="1" fill="#FFFFFF"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">كابل جوجل الأصلي (USB-C إلى USB-C)</h3>
+                <p class="text-gray-600 mb-4">
+                    كابل جوجل الأصلي بطول 1 متر، يضمن نقل بيانات سريع وشحن فعال لأجهزة بيكسل والأجهزة الأخرى المزودة بمنفذ USB-C. متين وموثوق، ومصمم لتحمل الاستخدام اليومي.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    89.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('كابل جوجل الأصلي (USB-C إلى USB-C)', 89.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="30" width="40" height="35" rx="8" fill="#E0E0E0"/>
+                        <rect x="40" y="65" width="20" height="10" rx="3" fill="#A0A0A0"/>
+                        <path d="M50 30L50 35" stroke="#1253BC" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M50 65L50 70" stroke="#1253BC" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="50" cy="50" r="5" fill="#1253BC"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">رأس شاحن سامسونج الأصلي (25 واط USB-C)</h3>
+                <p class="text-gray-600 mb-4">
+                    رأس شاحن سامسونج الأصلي بقوة 25 واط يدعم الشحن فائق السرعة (Super Fast Charging) لأجهزة جالكسي المتوافقة. تصميم مدمج وخفيف الوزن، مثالي للاستخدام اليومي والسفر.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    119.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('رأس شاحن سامسونج الأصلي (25 واط USB-C)', 119.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15" y="45" width="70" height="10" rx="3" fill="#E0E0E0"/>
+                    <circle cx="15" cy="50" r="8" fill="#1253BC"/>
+                    <circle cx="85" cy="50" r="8" fill="#1253BC"/>
+                    <path d="M15 50L85 50" stroke="#1253BC" stroke-width="2" stroke-linecap="round"/>
+                    <rect x="10" y="47" width="10" height="6" rx="1" fill="#FFFFFF"/>
+                    <rect x="80" y="47" width="10" height="6" rx="1" fill="#FFFFFF"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">كابل سامسونج الأصلي (USB-C إلى USB-C)</h3>
+                <p class="text-gray-600 mb-4">
+                    كابل سامسونج الأصلي عالي الجودة، يدعم الشحن فائق السرعة ونقل البيانات بين أجهزة سامسونج والأجهزة الأخرى المزودة بمنفذ USB-C. متين وموثوق لضمان أفضل أداء.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    79.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('كابل سامسونج الأصلي (USB-C إلى USB-C)', 79.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="20" y="20" width="60" height="50" rx="10" fill="#E0E0E0"/>
+                        <rect x="30" y="70" width="15" height="8" rx="2" fill="#A0A0A0"/>
+                        <rect x="55" y="70" width="15" height="8" rx="2" fill="#A0A0A0"/>
+                        <circle cx="40" cy="40" r="5" fill="#6C63FF"/>
+                        <circle cx="65" cy="40" r="5" fill="#6C63FF"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">رأس شاحن متعدد الاستخدامات (65 واط USB-C)</h3>
+                <p class="text-gray-600 mb-4">
+                    رأس شاحن قوي بقدرة 65 واط مع منافذ متعددة (USB-C و/أو USB-A)، مثالي لشحن اللابتوبات، الأجهزة اللوحية، والهواتف الذكية بسرعة وكفاءة. حل شحن شامل لجميع احتياجاتك.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    189.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('رأس شاحن متعدد الاستخدامات (65 واط USB-C)', 189.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="15" y="45" width="70" height="10" rx="3" fill="#E0E0E0"/>
+                    <circle cx="15" cy="50" r="8" fill="#6C63FF"/>
+                    <circle cx="85" cy="50" r="8" fill="#6C63FF"/>
+                    <path d="M15 50L85 50" stroke="#6C63FF" stroke-width="2" stroke-linecap="round"/>
+                    <rect x="10" y="47" width="10" height="6" rx="1" fill="#FFFFFF"/>
+                    <rect x="80" y="47" width="10" height="6" rx="1" fill="#FFFFFF"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">كابل USB-C إلى USB-C عالي الجودة</h3>
+                <p class="text-gray-600 mb-4">
+                    كابل USB-C إلى USB-C متين يدعم الشحن السريع ونقل البيانات، متوافق مع مجموعة واسعة من الأجهزة التي تستخدم منفذ USB-C. مثالي للشواحن عالية الطاقة.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    69.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('كابل USB-C إلى USB-C عالي الجودة', 69.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="35" fill="#E0E0E0"/>
+                    <circle cx="50" cy="50" r="25" stroke="#333333" stroke-width="2"/>
+                    <path d="M40 40L60 60M60 40L40 60" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">شاحن لاسلكي أصلي (Qi Compatible)</h3>
+                <p class="text-gray-600 mb-4">
+                    وداعاً للأسلاك المتشابكة. ضع هاتفك على هذا الشاحن اللاسلكي المتوافق مع معيار Qi واستمتع بشحن مريح وسريع. تصميم أنيق يندمج بسلاسة مع أي ديكور منزلي أو مكتبي.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    299.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('شاحن لاسلكي أصلي (Qi Compatible)', 299.00)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product-card bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100 text-center">
+                <svg class="product-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="30" y="30" width="40" height="25" rx="5" fill="#E0E0E0"/>
+                        <path d="M40 55L40 70L60 70L60 55" stroke="#A0A0A0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="40" cy="40" r="5" fill="#A0A0A0"/>
+                        <circle cx="60" cy="40" r="5" fill="#A0A0A0"/>
+                        <path d="M40 40L40 45" stroke="#A0A0A0" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M60 40L60 45" stroke="#A0A0A0" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <h3 class="text-2xl font-semibold mb-2">شاحن سيارة أصلي (USB-C & USB-A)</h3>
+                <p class="text-gray-600 mb-4">
+                    لا تقلق بشأن نفاد البطارية أثناء القيادة. يوفر هذا الشاحن الأصلي للسيارة منافذ USB-C و USB-A لشحن جهازين في وقت واحد، مع حماية مدمجة من التيار الزائد والحرارة لضمان أمان أجهزتك.
+                </p>
+                <div class="text-3xl font-bold text-blue-600 mb-4">
+                    129.00 <span class="text-xl">درهم مغربي</span>
+                </div>
+                <button class="btn-primary w-full" onclick="addToCart('شاحن سيارة أصلي (USB-C & USB-A)', 129.00)">أضف إلى السلة</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="why-us" class="py-16 bg-gray-100 rounded-xl shadow-md mx-auto my-12 container section-bg-gray">
+        <h2 class="text-4xl font-bold text-center mb-12">لماذا تختار متجر الشواحن الأصلية؟</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div class="text-5xl text-blue-600 mb-4">
+                    ⚡
+                </div>
+                <h3 class="text-xl font-semibold mb-2">جودة أصلية 100%</h3>
+                <p class="text-gray-600">نضمن لك شواحن أصلية ومعتمدة من الشركات المصنعة الرائدة مثل أبل، جوجل، وسامسونج.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div class="text-5xl text-blue-600 mb-4">
+                    🛡️
+                </div>
+                <h3 class="text-xl font-semibold mb-2">ضمان موثوق وخدمة عملاء ممتازة</h3>
+                <p class="text-gray-600">نقدم ضماناً على جميع منتجاتنا ودعماً فنياً متميزاً لضمان رضاك التام.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                <div class="text-5xl text-blue-600 mb-4">
+                    🚚
+                </div>
+                <h3 class="text-xl font-semibold mb-2">توصيل سريع وموثوق في جميع أنحاء المغرب</h3>
+                <p class="text-gray-600">نصلك أينما كنت في المغرب بأسرع وقت ممكن، لتستلم شاحنك الأصلي دون تأخير.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gradient-to-br from-blue-500 to-indigo-600 text-white py-16 text-center rounded-xl shadow-lg section-bg-white">
+        <h2 class="text-4xl font-bold mb-4">هل لديك أسئلة حول الشواحن الأصلية؟</h2>
+        <p class="text-xl mb-8 opacity-90">
+            فريقنا مستعد لمساعدتك والإجابة على جميع استفساراتك. تواصل معنا اليوم!
+        </p>
+        <a href="mailto:info@yourstore.ma" class="btn-primary inline-block text-lg bg-white text-blue-600 hover:bg-gray-100">
+            تواصل معنا عبر البريد الإلكتروني
+        </a>
+    </section>
+
+    <footer class="bg-gray-800 text-gray-300 py-8 text-center rounded-t-xl footer-bg">
+        <div class="container">
+            <p>&copy; 2025 متجر الشواحن الأصلية. جميع الحقوق محفوظة.</p>
+            <div class="flex justify-center space-x-4 space-x-reverse mt-4">
+                <a href="#" class="hover:text-white">سياسة الخصوصية</a>
+                <a href="#" class="hover:text-white">شروط الخدمة</a>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="cartModal" class="modal-overlay">
+        <div class="modal-content relative">
+            <span class="close-button" onclick="closeCartModal()">&times;</span>
+            <h3 class="text-3xl font-bold mb-6">سلة التسوق الخاصة بك</h3>
+            <div id="cartItemsList" class="max-h-80 overflow-y-auto mb-6">
+                <p class="text-gray-500 text-center" id="emptyCartMessage">سلتك فارغة حالياً.</p>
+            </div>
+            <div class="flex justify-between items-center text-2xl font-bold border-t pt-4">
+                <span>الإجمالي:</span>
+                <span><span id="cartTotal">0.00</span> درهم مغربي</span>
+            </div>
+            <button id="proceedToCheckoutBtn" class="btn-primary w-full mt-6" onclick="proceedToCheckout()" disabled>
+                المتابعة إلى الدفع
+            </button>
+        </div>
+    </div>
+
+    <div id="paymentModal" class="modal-overlay">
+        <div class="modal-content relative">
+            <span class="close-button" onclick="closePaymentOptions()">&times;</span>
+            <h3 class="text-3xl font-bold mb-6">اختر طريقة الدفع</h3>
+            <p class="text-lg mb-4">إجمالي السلة: <span id="checkoutTotalAmount" class="font-bold text-blue-600"></span> درهم مغربي</p>
+
+            <div class="flex flex-col gap-4 mb-6">
+                <div id="onlinePaymentOption" class="payment-option" onclick="selectPaymentMethod('online')">
+                    <h4 class="text-xl font-semibold text-gray-800">الدفع عبر الموقع (بطاقة ائتمان)</h4>
+                    <p class="text-gray-700 text-sm">ادفع بأمان باستخدام بطاقتك البنكية عبر الإنترنت.</p>
+                </div>
+                <div id="codPaymentOption" class="payment-option" onclick="selectPaymentMethod('cod')">
+                    <h4 class="text-xl font-semibold text-gray-800">الدفع عند الاستلام</h4>
+                    <p class="text-gray-700 text-sm">ادفع نقداً عند استلام طلبك من مندوب التوصيل.</p>
+                </div>
+            </div>
+
+            <div id="paymentDetails" class="payment-details hidden">
+                <h4 class="text-xl font-semibold mb-4" id="paymentDetailsTitle"></h4>
+                <div id="onlinePaymentForm" class="hidden">
+                    <input type="text" placeholder="رقم البطاقة" class="text-right" dir="rtl">
+                    <div class="flex gap-4">
+                        <input type="text" placeholder="تاريخ الانتهاء (شهر/سنة)" class="text-right" dir="rtl">
+                        <input type="text" placeholder="رمز الأمان (CVV)" class="text-right" dir="rtl">
+                    </div>
+                    <input type="text" placeholder="اسم حامل البطاقة" class="text-right" dir="rtl">
+                    <button class="btn-primary w-full mt-4" onclick="processPayment('online')">تأكيد الدفع</button>
+                </div>
+                <div id="codConfirmation" class="hidden">
+                    <p class="text-gray-700 mb-4">سيتم تأكيد طلبك والدفع عند الاستلام. يرجى تزويدنا بمعلومات الاتصال.</p>
+                    <input type="text" placeholder="اسمك الكامل" class="text-right" dir="rtl">
+                    <input type="text" placeholder="رقم الهاتف" class="text-right" dir="rtl">
+                    <input type="text" placeholder="عنوان التوصيل" class="text-right" dir="rtl">
+                    <button class="btn-primary w-full mt-4" onclick="processPayment('cod')">تأكيد الطلب</button>
+                </div>
+            </div>
+
+            <p id="confirmationMessage" class="text-green-600 font-semibold mt-4 hidden"></p>
+        </div>
+    </div>
+
+    <script>
+        let cart = [];
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedCart = localStorage.getItem('chargoryCart');
+            if (savedCart) {
+                cart = JSON.parse(savedCart);
+                updateCartDisplay();
+            }
+            // Removed initThreeJs() call
+        });
+
+        // --- Cart Functions ---
+        function saveCart() {
+            localStorage.setItem('chargoryCart', JSON.stringify(cart));
+        }
+
+        function updateCartDisplay() {
+            const cartItemCount = document.getElementById('cartItemCount');
+            const totalItemsInCart = cart.reduce((sum, item) => sum + item.quantity, 0);
+            cartItemCount.innerText = totalItemsInCart;
+            cartItemCount.style.display = totalItemsInCart > 0 ? 'block' : 'none';
+        }
+
+        function addToCart(productName, productPrice) {
+            const existingItemIndex = cart.findIndex(item => item.name === productName);
+            if (existingItemIndex > -1) {
+                cart[existingItemIndex].quantity += 1;
+            } else {
+                cart.push({ name: productName, price: productPrice, quantity: 1 });
+            }
+            saveCart();
+            updateCartDisplay();
+            alert(`تم إضافة "${productName}" إلى سلة التسوق!`);
+        }
+
+        function openCartModal() {
+            const cartItemsList = document.getElementById('cartItemsList');
+            const cartTotalElement = document.getElementById('cartTotal');
+            const emptyCartMessage = document.getElementById('emptyCartMessage');
+            const proceedToCheckoutBtn = document.getElementById('proceedToCheckoutBtn');
+
+            cartItemsList.innerHTML = '';
+
+            if (cart.length === 0) {
+                emptyCartMessage.style.display = 'block';
+                proceedToCheckoutBtn.disabled = true;
+            } else {
+                emptyCartMessage.style.display = 'none';
+                let total = 0;
+                cart.forEach((item, index) => {
+                    const itemElement = document.createElement('div');
+                    itemElement.classList.add('cart-item');
+                    itemElement.innerHTML = `
+                        <button class="qty-button text-red-600" onclick="removeFromCart(${index})">X</button>
+                        <div class="cart-item-info">
+                            <h4 class="font-semibold">${item.name}</h4>
+                            <p>${item.price.toFixed(2)} درهم مغربي</p>
+                        </div>
+                        <div class="cart-item-quantity-controls">
+                            <button class="qty-button" onclick="updateQuantity(${index}, ${item.quantity - 1})">-</button>
+                            <span class="mx-2 font-bold">${item.quantity}</span>
+                            <button class="qty-button" onclick="updateQuantity(${index}, ${item.quantity + 1})">+</button>
+                        </div>
+                    `;
+                    cartItemsList.appendChild(itemElement);
+                    total += item.price * item.quantity;
+                });
+                cartTotalElement.innerText = total.toFixed(2);
+                proceedToCheckoutBtn.disabled = false;
+            }
+
+            document.getElementById('cartModal').classList.add('active');
+        }
+
+        function closeCartModal() {
+            document.getElementById('cartModal').classList.remove('active');
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            saveCart();
+            updateCartDisplay();
+            openCartModal();
+        }
+
+        function updateQuantity(index, newQuantity) {
+            if (newQuantity < 1) {
+                removeFromCart(index);
+            } else {
+                cart[index].quantity = newQuantity;
+                saveCart();
+                updateCartModal();
+            }
+        }
+
+        function proceedToCheckout() {
+            closeCartModal();
+            const totalCartAmount = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+            document.getElementById('checkoutTotalAmount').innerText = totalCartAmount.toFixed(2);
+
+            document.getElementById('onlinePaymentOption').classList.remove('selected');
+            document.getElementById('codPaymentOption').classList.remove('selected');
+            document.getElementById('paymentDetails').classList.add('hidden');
+            document.getElementById('onlinePaymentForm').classList.add('hidden');
+            document.getElementById('codConfirmation').classList.add('hidden');
+            document.getElementById('confirmationMessage').classList.add('hidden');
+            document.getElementById('confirmationMessage').innerText = '';
+            selectedPaymentMethod = '';
+
+            document.getElementById('paymentModal').classList.add('active');
+        }
+
+        // --- Payment Functions ---
+        let selectedPaymentMethod = '';
+
+        function closePaymentOptions() {
+            document.getElementById('paymentModal').classList.remove('active');
+        }
+
+        function selectPaymentMethod(method) {
+            selectedPaymentMethod = method;
+
+            document.getElementById('onlinePaymentOption').classList.remove('selected');
+            document.getElementById('codPaymentOption').classList.remove('selected');
+
+            document.getElementById('onlinePaymentForm').classList.add('hidden');
+            document.getElementById('codConfirmation').classList.add('hidden');
+            document.getElementById('confirmationMessage').classList.add('hidden');
+
+            document.getElementById('paymentDetails').classList.remove('hidden');
+
+            if (method === 'online') {
+                document.getElementById('onlinePaymentOption').classList.add('selected');
+                document.getElementById('paymentDetailsTitle').innerText = 'أدخل تفاصيل البطاقة';
+                document.getElementById('onlinePaymentForm').classList.remove('hidden');
+            } else if (method === 'cod') {
+                document.getElementById('codPaymentOption').classList.add('selected');
+                document.getElementById('paymentDetailsTitle').innerText = 'معلومات التوصيل';
+                document.getElementById('codConfirmation').classList.remove('hidden');
+            }
+        }
+
+        function processPayment(method) {
+            const confirmationMessageElement = document.getElementById('confirmationMessage');
+            confirmationMessageElement.classList.remove('hidden');
+
+            if (method === 'online') {
+                confirmationMessageElement.innerText = `تم استلام طلبك بنجاح! سيتم معالجة الدفع عبر الإنترنت. (إجمالي: ${document.getElementById('checkoutTotalAmount').innerText} درهم)`;
+                confirmationMessageElement.classList.remove('text-red-600');
+                confirmationMessageElement.classList.add('text-green-600');
+            } else if (method === 'cod') {
+                confirmationMessageElement.innerText = `تم تأكيد طلبك بنجاح! سيتم الدفع عند الاستلام. (إجمالي: ${document.getElementById('checkoutTotalAmount').innerText} درهم)`;
+                confirmationMessageElement.classList.remove('text-red-600');
+                confirmationMessageElement.classList.add('text-green-600');
+            }
+
+            cart = [];
+            saveCart();
+            updateCartDisplay();
+
+            setTimeout(() => {
+                closePaymentOptions();
+            }, 3000);
+        }
+
+        // Removed Three.js Animation Functions
+    </script>
+</body>
+</html>
